@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <head>
+        <title>Sprint Task 3 (Converter)</title>
+        <link rel="stylesheet" type="text/css" href="converter.css">
+    </head>
+    <body>
+        <div class="textArea">
+            <p>Введите сумму:</p>
+            <p style="font-weight: bold; margin-left: 13%;">KZT (tenge)</p>
+            <p style="font-weight: bold; margin-left: 7%;">USD (dollar)</p>
+            <p style="font-weight: bold; margin-left: 7.5%;">EUR (euro)</p>
+        </div>
+        <div class="results">
+            <input type="number" id="val">
+            <select id="choice">
+                <option>USD</option>
+                <option>EUR</option>
+                <option>KZT</option>
+            </select>
+                <div class="convert_resultKZT">—</div>
+                <div class="convert_resultUSD">—</div>
+                <div class="convert_resultEUR">—</div>
+        </div>
+        <script src="converter.js"></script>
+    </body>
+</html>
